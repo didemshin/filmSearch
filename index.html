@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="custom.js"></script>
+</head>
+<body>
+
+<div class="home-page">
+    <div class="container">
+        <div class="search-box mb-3">
+            <div class="col-24">
+                <div class="input-group">
+                    <input class="form-control" placeholder="Search" type="text">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary btn-block" type="button">
+                            <i aria-hidden="true" class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-24">
+                <nav class="navbar navbar-light bg-light">
+                    <div class="searchHistoryJS">
+                        <button class="btn btn-sm btn-secondary mx-2 mb-2 searchHistoryItem" type="button">
+                            Smaller button <i class='far fa-times-circle close-button'></i>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="search-result border d-black">
+            <h3 class="fieldset">Arama Sonuçları</h3>
+            <div class="row cart-list">
+                <div class="col-24 col-lg-4 m-2 cart-item">
+                    <div class="card border-0 shadow">
+                        <div class="cart-footer">
+                            <i class="fa favorites-style addFavorites"
+                               data-film-img-url="Avatar"
+                               data-film-date="2018"
+                               data-film-name="Avatar">&#xf006;</i>
+                        </div>
+                        <a href="" title="">
+                            <img alt="" class="card-img-top" src="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Film Name</h5>
+                            <div class="card-text text-black-60 mt-10">Film Date</div>
+                            <div class="card-text mt-20 text-c10">Rating</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-24 col-lg-4 m-2 cart-item">
+                    <div class="card border-0 shadow">
+                        <div class="cart-footer">
+                            <i class="fa favorites-style addFavorites">&#xf006;</i>
+                        </div>
+                        <a href="" title="">
+                            <img alt="" class="card-img-top" src="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Film Name</h5>
+                            <div class="card-text text-black-60 mt-10">Film Date</div>
+                            <div class="card-text mt-20 text-c10">Rating</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="favorites-list border mt-5 d-block">
+            <h3 class="fieldset">Favoriler</h3>
+            <div class="row favorites-cart-list">
+                <div class="col-24 col-lg-4 m-2 cart-item">
+                    <div class="card border-0 shadow">
+                        <div class="cart-footer">
+                            <i class="fa favorites-style removeFavorites">&#xf005;</i>
+                        </div>
+                        <a href="" title="">
+                            <img alt="" class="card-img-top" src="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Film Name</h5>
+                            <div class="card-text text-black-60 mt-10">Film Date</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

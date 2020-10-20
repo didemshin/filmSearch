@@ -1,0 +1,10 @@
+.favorites-style{
+    pointer-events: painted;
+    float: right;
+    padding: 5px;
+}
+.fieldset {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+}
