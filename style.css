@@ -8,3 +8,24 @@
     color: white;
     padding: 5px 10px;
 }
+
+.card-img-top {
+    max-height: 400px;
+    min-height: 400px;
+}
+
+.card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cart-icon i::before{
+    content: "\2605";
+    font-size: x-large;
+}
+
+.addFavorites::before{
+    content: "\2606" !important;
+    font-size: x-large;
+}

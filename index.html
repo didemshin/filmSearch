@@ -15,92 +15,58 @@
 <body>
 
 <div class="home-page">
-    <div class="container">
+    <div class="container mt-3">
         <div class="search-box mb-3">
+
+            <!--Arama Başlangıç-->
+
             <div class="col-24">
                 <div class="input-group">
-                    <input class="form-control" placeholder="Search" type="text">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary btn-block" type="button">
+                    <input class="form-control search-input" placeholder="Search" type="text">
+                    <div class="input-group-append search-input">
+                        <button class="btn btn-outline-secondary btn-block search-btn" type="button" disabled>
                             <i aria-hidden="true" class="fa fa-search"></i>
                         </button>
                     </div>
                 </div>
             </div>
 
+            <!--Arama Bitiş-->
+
+            <!--Arama Geçmişi Başlangıç-->
+
             <div class="col-24">
                 <nav class="navbar navbar-light bg-light">
-                    <div class="searchHistoryJS">
-                        <button class="btn btn-sm btn-secondary mx-2 mb-2 searchHistoryItem" type="button">
-                            Smaller button <i class='far fa-times-circle close-button'></i>
-                        </button>
+                    <div class="searchHistoryJS search-history-list">
+
                     </div>
                 </nav>
             </div>
+
+            <!--Arama Geçmişi Bitiş-->
         </div>
 
-        <div class="search-result border d-black">
+        <!--Arama Sonuçları Başlangıç-->
+
+        <div class="search-result border d-none">
             <h3 class="fieldset">Arama Sonuçları</h3>
             <div class="row cart-list">
-                <div class="col-24 col-lg-4 m-2 cart-item">
-                    <div class="card border-0 shadow">
-                        <div class="cart-footer">
-                            <i class="fa favorites-style addFavorites"
-                               data-film-img-url="Avatar"
-                               data-film-date="2018"
-                               data-film-name="Avatar">&#xf006;</i>
-                        </div>
-                        <a href="" title="">
-                            <img alt="" class="card-img-top" src="">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-0">Film Name</h5>
-                            <div class="card-text text-black-60 mt-10">Film Date</div>
-                            <div class="card-text mt-20 text-c10">Rating</div>
-                        </div>
 
-                    </div>
-                </div>
-
-                <div class="col-24 col-lg-4 m-2 cart-item">
-                    <div class="card border-0 shadow">
-                        <div class="cart-footer">
-                            <i class="fa favorites-style addFavorites">&#xf006;</i>
-                        </div>
-                        <a href="" title="">
-                            <img alt="" class="card-img-top" src="">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-0">Film Name</h5>
-                            <div class="card-text text-black-60 mt-10">Film Date</div>
-                            <div class="card-text mt-20 text-c10">Rating</div>
-                        </div>
-
-                    </div>
-                </div>
             </div>
         </div>
 
-        <div class="favorites-list border mt-5 d-block">
+        <!--Arama Sonuçları Bitiş-->
+
+        <!--Favoriler Başlangıç-->
+
+        <div class="favorites-list border mt-5 d-none">
             <h3 class="fieldset">Favoriler</h3>
             <div class="row favorites-cart-list">
-                <div class="col-24 col-lg-4 m-2 cart-item">
-                    <div class="card border-0 shadow">
-                        <div class="cart-footer">
-                            <i class="fa favorites-style removeFavorites">&#xf005;</i>
-                        </div>
-                        <a href="" title="">
-                            <img alt="" class="card-img-top" src="">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-0">Film Name</h5>
-                            <div class="card-text text-black-60 mt-10">Film Date</div>
-                        </div>
 
-                    </div>
-                </div>
             </div>
         </div>
+
+        <!--Favoriler Bitiş-->
     </div>
 </div>
 
