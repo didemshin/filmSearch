@@ -1,31 +1,42 @@
-.favorites-style{
-    pointer-events: painted;
-    float: right;
-    padding: 5px;
-}
+/* Fielset */
 .fieldset {
     background-color: gray;
     color: white;
     padding: 5px 10px;
 }
+/* Fielset */
 
+/*Poster Image */
 .card-img-top {
     max-height: 400px;
     min-height: 400px;
 }
+/*Poster Image */
 
+/*Card-Film Name */
 .card-title{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+/*Card-Film Name */
 
+/*Star Icon */
 .cart-icon i::before{
     content: "\2605";
     font-size: x-large;
 }
-
 .addFavorites::before{
     content: "\2606" !important;
     font-size: x-large;
 }
+.favorites-style{
+    pointer-events: painted;
+    float: right;
+    padding: 5px;
+}
+
+.cart-icon{
+    background-color: #ffc107;
+}
+/*Star Icon */
